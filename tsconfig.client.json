@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "rootDir": "./client",
+    "module": "commonjs",
+    "outDir": ".tmp",
+    "removeComments": false,
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "alwaysStrict": true
+  },
+  "exclude": [
+    "node_modules",
+    "typings/index.d.ts",
+    "typings/global"
+  ],
+  "filesGlob": [
+    "client/{app,components}/**/!(*.spec).ts",
+    "typings/browser.d.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "resolveGlobs": true,
+    "forkChecker": true,
+    "experimentalDecorators": true
+  }
+}
